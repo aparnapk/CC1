@@ -32,7 +32,7 @@ public class SearchPage extends Base {
 	public PropertyPage clickOnProperty() {
 		for(int i=0;i<price.size();i++) {
 			price.get(4).click();
-			break;
+			
 		}
 		return new PropertyPage();
 	}

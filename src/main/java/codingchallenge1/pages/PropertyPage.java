@@ -8,7 +8,7 @@ import codingchallenge1.base.Base;
 
 public class PropertyPage extends Base {
 
-	@FindBy(xpath="//h4[contains(@class,'name'])")
+	@FindBy(xpath="//h4[@class='ui-agent__name']")
 	WebElement name;
 	
 	@FindBy(xpath="//h2[contains(@class,'address')]")

@@ -28,6 +28,7 @@ public class HomePageTest extends Base{
 	public void step1() throws InterruptedException {
 		home.searchLocation();
 		searchpa.printPrice();
+		Thread.sleep(3000);
 		searchpa.clickOnProperty();
 		Thread.sleep(3000);
 		prope.printPropertyDetails();
